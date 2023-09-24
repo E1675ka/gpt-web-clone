@@ -1,27 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./nav.css";
 import logo from "../../assets/GPT-3.svg";
-/* const Menu = () => {
-  <>
-    <p>
-      <a href="#home">Home</a>
-    </p>
-    <p>
-      <a href="#wgpt3">What is GPT3?</a>
-    </p>
-    <p>
-      <a href="#possibility">Open AI</a>
-    </p>
-    <p>
-      <a href="#features">Case Studies</a>
-    </p>
-    <p>
-      <a href="#blog">Library</a>
-    </p>
-  </>;
-}; */
+
 const Nav = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
